@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // built-in types (int) can be re-defined as normal type, after that methods [stage()] can be attached
 type Age int
@@ -10,8 +12,8 @@ type Person struct {
 	Age
 }
 
-func (p Person) stage() string {
-	if p.Age >= 18 {
+func (a Age) stage() string {
+	if a >= 18 {
 		return "adult"
 	}
 	return "teen"
@@ -19,8 +21,8 @@ func (p Person) stage() string {
 
 func main() {
 	p1 := Person{"ali", Age(30)}
-	fmt.Println(p1.stage())
+	fmt.Printf("%v is %v\n", p1.name, p1.stage())
 
 	p2 := Person{"jay", Age(12)}
-	fmt.Println(p2.stage())
+	fmt.Printf("%v is %v\n", p2.name, p2.stage())
 }
