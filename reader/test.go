@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/gomeetup/reader/buf"
-	"github.com/gomeetup/reader/count"
-	"github.com/gomeetup/reader/file"
-	"github.com/gomeetup/reader/str"
 	"os"
+
+	"github.com/nurali-techie/gomeetup/reader/buf"
+	"github.com/nurali-techie/gomeetup/reader/count"
+	"github.com/nurali-techie/gomeetup/reader/file"
+	"github.com/nurali-techie/gomeetup/reader/str"
 )
 
 func main() {

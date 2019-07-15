@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gomeetup/ds/arraydemo"
-	"github.com/gomeetup/ds/slicedemo"
+	"github.com/nurali-techie/gomeetup/ds/arraydemo"
+	"github.com/nurali-techie/gomeetup/ds/slicedemo"
 )
 
 func main() {

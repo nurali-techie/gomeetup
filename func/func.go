@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/gomeetup/func/game"
-	"github.com/gomeetup/func/calc"
-	"github.com/gomeetup/func/closure"
-	"github.com/gomeetup/func/nofunc"
+
+	"github.com/nurali-techie/gomeetup/func/calc"
+	"github.com/nurali-techie/gomeetup/func/closure"
+	"github.com/nurali-techie/gomeetup/func/game"
+	"github.com/nurali-techie/gomeetup/func/nofunc"
 )
 
 func main() {
@@ -23,4 +24,3 @@ func main() {
 
 	game.GameDemo()
 }
-
